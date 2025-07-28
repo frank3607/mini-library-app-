@@ -1,28 +1,21 @@
-🚗 Mini Library App – Car Book Edition
+# 📚 Multi-Category Book Library App
 
-A simple and modern full-stack **library app** built using **React + Node.js**, designed to manage car-related books. Users can view a list of books, issue them, and return them — all from a clean and responsive interface.
+A modern, responsive web application that allows users to browse, issue, return, review, and wishlist books across various categories. Built with **React.js** and connected to a **Node.js/Express** backend with MongoDB.
 
----
+## 🌟 Features
 
-## 🔧 Features
+- 🔎 Search books by **title**, **author**, and **category**
+- 📚 View book details, cover image, and availability status
+- ✅ **Issue** and **Return** books with real-time updates
+- 📝 Submit **ratings and reviews** (1 to 5 stars)
+- 💖 Add or remove books from **Favorites/Wishlist**
+- 🌓 **Dark Mode / Light Mode** toggle
+- 🎨 Fully responsive UI with smooth hover and transition effects
 
-- 📚 View a live list of car books
-- ✅ Issue a book (if available)
-- 🔁 Return a book (if already issued)
-- 🔄 Real-time updates after each action
-- 💅 Responsive UI with Tailwind CSS
-Tech Stack
+## 🚀 Tech Stack
 
-**Frontend**  
-- React  
-- Axios (API requests)  
-- Tailwind CSS (styling)  
+| Frontend       | Backend        
+|----------------|----------------|
+| React.js       | Node.js, Express 
 
-**Backend**  
-- Node.js  
-- Express.js  
-- CORS + JSON middleware  
-- In-memory book list (no database)
-- --
 
-## 📁 Folder Structure
